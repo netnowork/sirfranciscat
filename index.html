@@ -25,17 +25,80 @@
 </head>
 
 <body>
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row align-items-start">
-                <!-- <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <a href="#"><img src="img/logo.png" class="img-fluid" /></a>
+    <!-- <header class="jumbotron jumbotron-fluid">
+        <div class="container"> 
+            <div class="row align-items-start"> -->
+    <!-- <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <a href="#"><img src="img/logo.png" class="img-fluid" /></a> 
                 </div> -->
-                <div class="col">
+    <!-- <div class="col">
                     <h1>Sir Francis Cat</h1>
                     <h4>A Blog about Cats, By Cats, For Cats</h4>
                 </div>
             </div>
         </div>
-    </header>
+    </header> -->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#francisNavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="col">
+                <div class="collapse navbar-collapse" id="francisNavBar">
+                    <ul class="navbar-nav mr-auto mx-auto align-self-start">
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="wallofcats">Wall of Cats</a></li>
+                    </ul>
+                    </span>
+                </div>
+            </div>
+            <div class="col navbar-title">
+                <h1 class="text-center col-sm-12" href="#">Sir Francis Cat</h1>
+                <h4 class="text-center">A Blog about Cats, By Cats, For Cats</h4>
+            </div>
+            <div class="col">
+                <div class="collapse navbar-collapse" id="francisNavBar">
+                    <ul class="navbar-nav mr-auto mx-auto align-self-start">
+                        <li class="nav-item"><a class="nav-link" href="blog.html">About</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="wallofcats">Contact me</a></li>
+                    </ul>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <!-- <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Sir Francis Cat</a>
+            </div>
+            <div id="navlistDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Wall of Cats</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+            <section class="home">
+            </section>
+        </div>
+    </nav> -->
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
 </body>
+
+</html>

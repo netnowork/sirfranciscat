@@ -1,15 +1,51 @@
 $color-primary: #008300;
 $color-secondary: rgb(143, 143, 143);
 $header-font: 'IM Fell Great Primer SC', serif;
+$header-font2: 'Comforter', cursive;
 
 .jumbotron {
     padding: 10px;
     color: white;
     background-image: linear-gradient(to right, black, $color-secondary);
-    // font-family: 'Comforter', cursive;
+    // 
     font-family: $header-font;
 }
 
 body {
     background-color: $color-secondary;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    font-size: 62.5%;
+    font-size: 10px;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80);
+    background-position: center top;
+    background-size: cover;
+}
+
+.navbar-title {
+    h1 {
+        font-family: $header-font2;
+        color: white;
+    }
+
+    h4 {
+        font-family: $header-font;
+        color: white;
+    }
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+}
+
+.nav-item {
+    font-family: $header-font
 }

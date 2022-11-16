@@ -1,0 +1,15 @@
+$color-primary: #008300;
+$color-secondary: rgb(143, 143, 143);
+$header-font: 'IM Fell Great Primer SC', serif;
+
+.jumbotron {
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(to right, black, $color-secondary);
+    // font-family: 'Comforter', cursive;
+    font-family: $header-font;
+}
+
+body {
+    background-color: $color-secondary;
+}

@@ -1,0 +1,8 @@
+.jumbotron {
+  padding: 10px;
+  color: white;
+  background-image: linear-gradient(to right, black, #8f8f8f);
+  font-family: "IM Fell Great Primer SC", serif; }
+
+body {
+  background-color: #8f8f8f; }

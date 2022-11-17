@@ -1,3 +1,10 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/sirfrancis.jpg);
+  background-position: center top;
+  background-size: cover; }
+
 body {
   background-color: #8f8f8f;
   margin: 0;
@@ -22,3 +29,13 @@ body {
 
 #mobileTitle {
   font-family: "Comforter", cursive; }
+
+#titleSnippet {
+  font-family: "IM Fell Great Primer SC", serif;
+  color: white;
+  height: 1px;
+  line-height: 0px; }
+
+.site-footer {
+  background-image: linear-gradient(black, white);
+  padding: 70px 0; }

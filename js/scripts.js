@@ -6,3 +6,15 @@
 //         $('.nav').removeClass('affix');
 //     }
 // });
+
+
+$(window).scroll(function () {
+
+    if ($(this).scrollTop() > 50) {
+        $('nav').stop().fadeIn(800);
+        console.log("OK");
+    } else {
+        $('nav').stop().fadeOut(800);
+        console.log("OK");
+    };
+}); 

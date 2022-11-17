@@ -12,7 +12,7 @@ $header-font2: 'Comforter', cursive;
 
 .home {
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     background-image: url(../img/sirfrancis.jpg);
     background-position: center top;
     background-size: cover;
@@ -64,14 +64,42 @@ body {
     font-family: $header-font2
 }
 
-#titleSnippet {
+#titleSnippetContainer {
     font-family: $header-font;
     color: white;
-    height: 1px;
+    height: 0px;
     line-height: 0px;
+    position: static;
+    text-align: center;
 }
 
 .site-footer {
-    background-image: linear-gradient(black, white);
-    padding: 70px 0;
+    background-color: black;
+    // padding: 5px 0;
+}
+
+// .navbar {
+//     background-color: black;
+// }
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    line-height: 100px;
+    text-align: center;
+}
+
+// #homeContainer {
+//     width: 100%;
+// }
+
+.toplayer {
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: $header-font;
+    font-size: 2.5em;
 }

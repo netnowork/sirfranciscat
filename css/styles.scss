@@ -1,22 +1,32 @@
+@import "../node_modules/bootstrap/scss/mixins";
+
+@import "../node_modules/bootstrap/scss/functions";
+
+@import "../node_modules/bootstrap/scss/variables";
+
 $color-primary: #008300;
 $color-secondary: rgb(143, 143, 143);
 $header-font: 'IM Fell Great Primer SC', serif;
 $header-font2: 'Comforter', cursive;
 
-// .jumbotron {
-//     padding: 10px;
-//     color: white;
-//     background-image: linear-gradient(to right, black, $color-secondary);
-//     font-family: $header-font;
-// }
-
 .home {
+    position: relative;
     width: 100%;
-    height: 150vh;
+    height: 100vh;
     background-image: url(../img/sirfrancis.jpg);
-    background-position: center top;
+    background-position: center 20%;
     background-size: cover;
+    // transform: translate(0, 50px);
 }
+
+// #home::before {
+//     width: 100%;
+//     height: 150vh;
+//     background-image: url(../img/sirfrancis.jpg);
+//     background-position: center top;
+//     background-size: cover;
+//     transform: translate(0, 50px);
+// }
 
 body {
     background-color: $color-secondary;
@@ -27,20 +37,6 @@ body {
     font-size: 62.5%;
     font-size: 10px;
 }
-
-// .home {
-//     width: 100%;
-//     height: 100vh;
-//     background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80);
-//     background-position: center top;
-//     background-size: cover;
-// }
-
-
-// .navbar-fixed-top.scrolled {
-//     background-color: #fff !important;
-//     transition: background-color 200ms linear;
-// }
 
 #francisNavBar {
     .nav-item {
@@ -58,7 +54,10 @@ body {
 
 .navbar {
     color: white;
+
 }
+
+
 
 #mobileTitle {
     font-family: $header-font2;
@@ -79,27 +78,34 @@ body {
     // padding: 5px 0;
 }
 
-// .navbar {
-//     background-color: black;
-// }
-
 .navbar {
     width: 100%;
     height: 100px;
     position: fixed;
     line-height: 100px;
     text-align: center;
+    background-color: #000000;
+
+    @include media-breakpoint-up(md) {
+        background-color: transparent;
+    }
 }
 
-// #homeContainer {
-//     width: 100%;
-// }
 
 .toplayer {
     position: absolute;
     top: 9%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
+    font-family: $header-font;
+    font-size: 2.5em;
+}
+
+#testTitle {
+    position: relative;
+    top: 80px;
+    text-align: center;
     color: white;
     font-family: $header-font;
     font-size: 2.5em;

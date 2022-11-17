@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+.home {
+  width: 100%;
+  height: 150vh;
+  background-image: url(../img/sirfrancis.jpg);
+  background-position: center top;
+  background-size: cover; }
+
+>>>>>>> navbar-one-ul
 body {
   background-color: #8f8f8f;
   margin: 0;
@@ -5,18 +15,25 @@ body {
   font-size: 62.5%;
   font-size: 10px; }
 
+<<<<<<< HEAD
 .navbar-title h1 {
   font-family: "Comforter", cursive;
   color: white; }
 
 .navbar-title h4 {
+=======
+#francisNavBar .nav-item {
+>>>>>>> navbar-one-ul
   font-family: "IM Fell Great Primer SC", serif;
+  font-size: 2.5em;
   color: white; }
 
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear; }
+#francisNavBar .navbar-brand {
+  font-family: "Comforter", cursive;
+  font-size: 5em;
+  color: white; }
 
+<<<<<<< HEAD
 .nav-item {
   font-family: "IM Fell Great Primer SC", serif;
   font-size: 200%; }
@@ -28,3 +45,37 @@ body {
 .head-title-text {
   font-family: "IM Fell Great Primer SC", serif;
   color: white; }
+=======
+.navbar {
+  color: white; }
+
+#mobileTitle {
+  font-family: "Comforter", cursive; }
+
+#titleSnippetContainer {
+  font-family: "IM Fell Great Primer SC", serif;
+  color: white;
+  height: 0px;
+  line-height: 0px;
+  position: static;
+  text-align: center; }
+
+.site-footer {
+  background-color: black; }
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  line-height: 100px;
+  text-align: center; }
+
+.toplayer {
+  position: absolute;
+  top: 9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "IM Fell Great Primer SC", serif;
+  font-size: 2.5em; }
+>>>>>>> navbar-one-ul

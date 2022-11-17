@@ -1,70 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <head>
-        <!-- Required meta tags always come first -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-        <!-- build:css css/main.css-->
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/styles.css" />
-        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-        <!-- endbuild -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Comforter&family=IM+Fell+Great+Primer+SC&display=swap"
-            rel="stylesheet">
-        <title>SirFrancisCat</title>
-    </head>
+    <!-- build:css css/main.css-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Comforter&family=IM+Fell+Great+Primer+SC&display=swap"
+        rel="stylesheet">
+    <title>SirFrancisCat</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row head-title mb-auto">
-            <h1 class="text-center col-12 mb-auto" href="#">Sir Francis Cat</h1>
-        </div>
-        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#francisNavBar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+        <div class="container">
+            <div class="row mx-auto d-sm-block d-md-none">
                 <div class="col">
-                    <div class="collapse navbar-collapse" id="francisNavBar">
-                        <ul class="navbar-nav mr-auto mx-auto align-self-start">
-                            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="wallofcats.html">Wall of Cats</a></li>
-                        </ul>
-                        </span>
-                    </div>
+                    <h1 id="mobileTitle">Sir Francis Cat</h1>
                 </div>
-                <!-- <div class="col navbar-title">
-                    <h1 class="text-center col-12" href="#">Sir Francis Cat</h1>
-                    <h4 class="text-center d-none d-sm-block">A Blog about Cats, By Cats, For Cats</h4>
-                </div> -->
+            </div>
+            <div class="row mx-auto">
                 <div class="col">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                        data-target="#francisNavBar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="francisNavBar">
-                        <ul class="navbar-nav mr-auto mx-auto align-self-start">
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a>
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item d-sm-block d-md-none align-self-center"><a class="nav-link"
+                                    href="#">Home</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item align-self-center"><a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item align-self-center"><a class="nav-link" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item navbar-brand d-none d-md-block align-self-center active"><a
+                                    class="nav-link" href="#">Sir
+                                    Francis Cat</a>
+                            </li>
+                            <li class="nav-item align-self-center"><a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item align-self-center"><a class="nav-link" href="contact.html">Contact</a>
+                            </li>
                         </ul>
-                        </span>
                     </div>
                 </div>
             </div>
-        </nav>
-        <div class="row head-title-text">
-            <h4 class="text-center col-12" href="#">A Blog about Cats, By Cats, For Cats</h1>
         </div>
+
+    </nav>
+    <!-- <div class="container" id="titleSnippetContainer">
+        <div class="row">
+            <div class="col">
+                <h4 class="text-center m-0" id="titleSnippet">A Blog about Cats, By Cats, For Cats</h4>
+            </div>
+        </div>
+    </div> -->
+    <section class="home">
+    </section>
+    <div class="container">
+        <div class="toplayer">A Blog about Cats, By Cats, For Cats</div>
     </div>
 
+
+
+
+
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                            class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i
+                            class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <!-- build:js js/main.js -->

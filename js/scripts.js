@@ -1,7 +1,9 @@
+//last change
 $(function () {
-    let lastKnownScrollPosition = 0;
-    let ticking = false;
-    let scrollTop = window.pageYoffset || document.documentElement.scrollTop;
+    var DlastKnownScrollPosition = 0;
+    var ticking = false;
+    var scrollTop = window.pageYoffset || document.documentElement.scrollTop;
+    var titletextel = document.getElementById("testTitle");
     console.log(scrollTop);
     $('.testTitle').addClass("nav-update-text");
     if (scrollTop > 0) {
@@ -31,11 +33,11 @@ $(function () {
 
 
     document.addEventListener('scroll', (e) => {
-        lastKnownScrollPosition = window.scrollY;
+        DlastKnownScrollPosition = window.scrollY;
 
         if (!ticking) {
             window.requestAnimationFrame(() => {
-                navFade(lastKnownScrollPosition);
+                navFade(DlastKnownScrollPosition);
                 ticking = false;
             });
             ticking = true;

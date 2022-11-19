@@ -4,8 +4,7 @@
   height: 100vh;
   background-image: url(../img/sirfrancis.jpg);
   background-position: center 20%;
-  background-size: cover;
-}
+  background-size: cover; }
 
 body {
   background-color: #8f8f8f;
@@ -14,30 +13,21 @@ body {
   box-sizing: border-box;
   font-family: "Quicksand", sans-serif;
   font-size: 62.5%;
-  font-size: 10px;
-}
+  font-size: 10px; }
 
 #francisNavBar .nav-item {
   font-family: "IM Fell Great Primer SC", serif;
   font-size: 2.5em;
-  color: white;
-}
+  color: white; }
 
 #francisNavBar .navbar-brand {
   font-family: "Comforter", cursive;
   font-size: 5em;
-  color: white;
-}
-
-.dropdown-menu {
-  background: black;
-}
+  color: white; }
 
 #mobileTitle {
   font-family: "Comforter", cursive;
-  position: static;
-  color: white;
-}
+  color: white; }
 
 #titleSnippetContainer {
   font-family: "IM Fell Great Primer SC", serif;
@@ -45,12 +35,10 @@ body {
   height: 0px;
   line-height: 0px;
   position: static;
-  text-align: center;
-}
+  text-align: center; }
 
 .site-footer {
-  background-color: black;
-}
+  background-color: black; }
 
 .navbar {
   width: 100%;
@@ -58,14 +46,10 @@ body {
   position: fixed;
   line-height: 100px;
   text-align: center;
-  background-color: #000000;
-}
-
-@media (min-width: 768px) {
-  .navbar {
-    background-color: transparent;
-  }
-}
+  background-color: #000000; }
+  @media (min-width: 768px) {
+    .navbar {
+      background-color: transparent; } }
 
 .toplayer {
   position: absolute;
@@ -74,26 +58,28 @@ body {
   transform: translate(-50%, -50%);
   color: white;
   font-family: "IM Fell Great Primer SC", serif;
-  font-size: 2.5em;
-}
+  font-size: 2.5em; }
 
-#testTitle {
+.testTitle {
   position: relative;
   top: 80px;
   text-align: center;
   color: white;
   font-family: "IM Fell Great Primer SC", serif;
-  font-size: 2.5em;
-}
+  font-size: 2.5em; }
+
+.row-content {
+  padding: 30px;
+  border-bottom: 1px ridge black;
+  min-height: 200px; }
 
 .nav-update {
   background-color: black;
-  -o-transition-duration: 2s;
-  -moz-transition-duration: 2s;
-  -ms-transition-duration: 2s;
-  -webkit-transition-duration: 2s;
-  transition-duration: 2s;
-}
+  -o-transition-duration: .5s;
+  -moz-transition-duration: .5s;
+  -ms-transition-duration: .5s;
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s; }
 
 .fadeInC {
   background-color: transparent;
@@ -101,8 +87,7 @@ body {
   -moz-transition-duration: 0.5s;
   -ms-transition-duration: 0.5s;
   -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-}
+  transition-duration: 0.5s; }
 
 .nav-update-text {
   opacity: 100;
@@ -110,8 +95,7 @@ body {
   -moz-transition-duration: 2s;
   -ms-transition-duration: 2s;
   -webkit-transition-duration: 2s;
-  transition-duration: 2s;
-}
+  transition-duration: 2s; }
 
 .fadeInC-text {
   opacity: 0;
@@ -119,5 +103,10 @@ body {
   -moz-transition-duration: .2s;
   -ms-transition-duration: .2s;
   -webkit-transition-duration: .2s;
-  transition-duration: .2s;
-}
+  transition-duration: .2s; }
+
+.reviewsCol {
+  background: #000000; }
+
+.reviewsCard {
+  background: red; }

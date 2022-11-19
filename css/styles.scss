@@ -9,6 +9,10 @@ $color-secondary: rgb(143, 143, 143);
 $header-font: 'IM Fell Great Primer SC', serif;
 $header-font2: 'Comforter', cursive;
 
+// .reviewsContainer {
+//     width: 100%;
+// }
+
 .home {
     position: relative;
     width: 100%;
@@ -51,7 +55,7 @@ body {
 
 #mobileTitle {
     font-family: $header-font2;
-    position: static;
+    // position: static;
     color: white;
 }
 
@@ -93,7 +97,7 @@ body {
     font-size: 2.5em;
 }
 
-#testTitle {
+.testTitle {
     position: relative;
     top: 80px;
     text-align: center;
@@ -102,13 +106,19 @@ body {
     font-size: 2.5em;
 }
 
+.row-content {
+    padding: 30px;
+    border-bottom: 1px ridge black;
+    min-height: 200px;
+}
+
 .nav-update {
     background-color: black;
-    -o-transition-duration: 2s;
-    -moz-transition-duration: 2s;
-    -ms-transition-duration: 2s;
-    -webkit-transition-duration: 2s;
-    transition-duration: 2s;
+    -o-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -ms-transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
 }
 
 .fadeInC {
@@ -138,4 +148,10 @@ body {
     transition-duration: .2s;
 }
 
-// @keyframes myfadeIn {}
+.reviewsCol {
+    background: #000000;
+}
+
+.reviewsCard {
+    background: red;
+}

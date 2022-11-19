@@ -60,7 +60,7 @@ body {
   font-family: "IM Fell Great Primer SC", serif;
   font-size: 2.5em; }
 
-.testTitle {
+#testTitle {
   position: relative;
   top: 80px;
   text-align: center;
@@ -109,4 +109,4 @@ body {
   background: #000000; }
 
 .reviewsCard {
-  background: red; }
+  background: #bb0505; }

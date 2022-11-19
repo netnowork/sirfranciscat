@@ -86,7 +86,6 @@ body {
     }
 }
 
-
 .toplayer {
     position: absolute;
     top: 9%;
@@ -97,7 +96,7 @@ body {
     font-size: 2.5em;
 }
 
-.testTitle {
+#testTitle {
     position: relative;
     top: 80px;
     text-align: center;
@@ -153,5 +152,5 @@ body {
 }
 
 .reviewsCard {
-    background: red;
+    background: rgb(187, 5, 5);
 }
